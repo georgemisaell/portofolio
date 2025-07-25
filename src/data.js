@@ -17,6 +17,7 @@ import Tools8 from "/assets/tools/github.png";
 import Tools9 from "/assets/tools/ai.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
+import Tools12 from "/assets/tools/wordpress.png";
 
 export const listTools = [
   {
@@ -94,6 +95,13 @@ export const listTools = [
     gambar: Tools11,
     nama: "Figma",
     ket: "Design App",
+    dad: "1100",
+  },
+  {
+    id: 12,
+    gambar: Tools12,
+    nama: "WordPress",
+    ket: "Framework",
     dad: "1100",
   },
 ];
