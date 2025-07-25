@@ -1,5 +1,7 @@
-import DataImage from "../data";
+import DataImage from "../../data";
 import TypeIt from "typeit-react";
+import ShinyText from "../reactbits/ShinyText";
+import PixelTransition from "../reactbits/PixelTransition";
 
 const Hero = () => {
   return (
@@ -35,9 +37,32 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <img
-        src={DataImage.HeroImage}
-        alt="Hero Image"
+      <PixelTransition
+        firstContent={
+          <img
+            src={DataImage.HeroImage}
+            alt="George Profile Photo"
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
+        }
+        secondContent={
+          <div
+            style={{
+              width: "100%",
+              height: "100%",
+              display: "grid",
+              placeItems: "center",
+              backgroundColor: "#111",
+            }}
+          >
+            <p style={{ fontWeight: 900, fontSize: "3rem", color: "#ffffff" }}>
+              Nice to meet you!
+            </p>
+          </div>
+        }
+        gridSize={15}
+        pixelColor="#ffffff"
+        animationStepDuration={0.4}
         className="w-[500px] md:ml-auto"
       />
     </div>

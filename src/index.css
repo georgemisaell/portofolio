@@ -1,4 +1,30 @@
+/* @import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+} */
+
+/* src/index.css */
+
 @import "tailwindcss";
+
+/* Definisi tema dan kustomisasi lainnya di dalam @theme */
+@theme {
+  /* Definisi keyframes untuk efek 'shine' */
+  @keyframes shine {
+    from {
+      background-position: 100%;
+    }
+    to {
+      background-position: -100%;
+    }
+  }
+
+  /* Definisi animation utility yang akan menghasilkan kelas seperti 'animate-shine' */
+  --animation-shine: shine 5s linear infinite;
+}
 
 @layer base {
   body {

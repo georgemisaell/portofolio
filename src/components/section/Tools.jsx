@@ -1,5 +1,5 @@
 import React from "react";
-import { listTools } from "../data";
+import { listTools } from "../../data";
 const Tools = () => {
   return (
     <div className="tools" mt-32>

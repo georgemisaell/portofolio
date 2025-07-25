@@ -1,19 +1,28 @@
 import DataImage from "./data";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Tools from "./components/Tools";
+import Hero from "./components/section/Hero";
+import About from "./components/section/About";
+import Tools from "./components/section/Tools";
+import ClickSpark from "../src/components/reactbits/ClickSpark";
 
 function App() {
   return (
     <>
-      {/* Hero Section */}
-      <Hero />
+      <ClickSpark
+        sparkColor="#fff"
+        sparkSize={10}
+        sparkRadius={15}
+        sparkCount={8}
+        duration={400}
+      >
+        {/* Hero Section */}
+        <Hero />
 
-      {/* About Section */}
-      <About />
+        {/* About Section */}
+        <About />
 
-      {/* Tools */}
-      <Tools />
+        {/* Tools */}
+        <Tools />
+      </ClickSpark>
     </>
   );
 }

@@ -1,4 +1,4 @@
-import DataImage from "../data";
+import DataImage from "../../data";
 import React from "react";
 
 const About = () => {
