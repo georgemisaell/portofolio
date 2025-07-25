@@ -2,16 +2,34 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="mt-32 sm:p-10 p-0">
-      <h1 className="text-4xl mb-2 font-bold text-center">Contact</h1>
-      <p className="text-base/loose text-center mb-10 opacity-50">
+    <div className="mt-32 sm:p-10 p-0" id="contact">
+      <h1
+        className="text-4xl mb-2 font-bold text-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+        data-aos-once="true"
+      >
+        Contact
+      </h1>
+      <p
+        className="text-base/loose text-center mb-10 opacity-50"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+        data-aos-once="true"
+      >
         Let's Connect
       </p>
       <form
         action="https://formsubmit.co/georgemisaelgantume@gmail.com"
         method="POST"
         className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md "
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="500"
         autoComplete="off"
+        data-aos-once="true"
       >
         <div className="flex flex-col gap-6 ">
           <div

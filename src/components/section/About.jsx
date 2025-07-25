@@ -3,8 +3,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="about mt-32 py-10">
-      <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg">
+    <div className="about mt-32 py-10" id="about">
+      <div
+        className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-once="true"
+      >
         <img
           src={DataImage.HeroImage}
           alt="Image"

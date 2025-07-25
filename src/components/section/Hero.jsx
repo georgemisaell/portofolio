@@ -6,7 +6,7 @@ import PixelTransition from "../reactbits/PixelTransition";
 const Hero = () => {
   return (
     <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
-      <div>
+      <div className="animate__animated animate__fadeInUp">
         <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
           <img
             src={DataImage.HeroImage}
@@ -33,7 +33,10 @@ const Hero = () => {
           >
             Downlaod CV <i className="ri-download-line ri-lg"></i>
           </a>
-          <a href="#" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">
+          <a
+            href="#project"
+            className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
+          >
             My Project <i className="ri-arrow-down-line ri-lg"></i>
           </a>
         </div>
@@ -45,6 +48,7 @@ const Hero = () => {
             alt="George Profile Photo"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
             loading="lazy"
+            className="animate__animated animate__fadeInUp"
           />
         }
         secondContent={
