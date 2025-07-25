@@ -9,6 +9,7 @@ const About = () => {
           src={DataImage.HeroImage}
           alt="Image"
           className="w-12 rounded-md mb-10 sm:hidden"
+          loading="lazy"
         />
         <p className="text-base/loose mb-10">
           Hello, I'm George Misael Gantume, a dedicated Fullstack Developer. My
@@ -22,6 +23,7 @@ const About = () => {
             src={DataImage.HeroImage}
             alt="Image"
             className="w-12 rounded-md sm:block hidden"
+            loading="lazy"
           />
           <div className="flex items-center gap-6">
             <div>

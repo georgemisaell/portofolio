@@ -1,7 +1,7 @@
-import DataImage from "./data";
 import Hero from "./components/section/Hero";
 import About from "./components/section/About";
 import Tools from "./components/section/Tools";
+import Project from "./components/section/Project";
 import ClickSpark from "../src/components/reactbits/ClickSpark";
 import SplashCursor from "./components/reactbits/SplashCursor";
 
@@ -21,8 +21,11 @@ function App() {
         {/* About Section */}
         <About />
 
-        {/* Tools */}
+        {/* Tools Section*/}
         <Tools />
+
+        {/* Project Section */}
+        <Project />
         <SplashCursor />
       </ClickSpark>
     </>

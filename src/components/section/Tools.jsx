@@ -2,7 +2,7 @@ import React from "react";
 import { listTools } from "../../data";
 const Tools = () => {
   return (
-    <div className="tools" mt-32>
+    <div className="tools mt-32">
       <h1 className="text-4xl/snug font-bold mb-4">Tools that I often use</h1>
       <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50">
         Here are some tools that I usually use to create websites.
@@ -13,6 +13,7 @@ const Tools = () => {
           <div
             className="flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group"
             key={tool.id}
+            loading="lazy"
           >
             <img
               src={tool.gambar}

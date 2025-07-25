@@ -12,6 +12,7 @@ const Hero = () => {
             src={DataImage.HeroImage}
             alt="Hero Image"
             className="w-10 rounded-md"
+            loading="lazy"
           />
           <q>Beautiful code, born from perseverance</q>
         </div>
@@ -43,6 +44,7 @@ const Hero = () => {
             src={DataImage.HeroImage}
             alt="George Profile Photo"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            loading="lazy"
           />
         }
         secondContent={
