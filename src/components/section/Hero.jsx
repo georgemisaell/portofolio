@@ -52,7 +52,7 @@ const Hero = () => {
               height: "100%",
               display: "grid",
               placeItems: "center",
-              backgroundColor: "#111",
+              backgroundColor: "#18181B",
             }}
           >
             <p style={{ fontWeight: 900, fontSize: "3rem", color: "#ffffff" }}>

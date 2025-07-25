@@ -107,7 +107,7 @@ function PixelTransition({
       ref={containerRef}
       className={`
         ${className}
-        bg-[#271E37]
+        bg-[#18181B]
         text-white
         rounded-bl-[150px]
         w-[300px]
