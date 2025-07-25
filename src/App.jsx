@@ -3,6 +3,7 @@ import Hero from "./components/section/Hero";
 import About from "./components/section/About";
 import Tools from "./components/section/Tools";
 import ClickSpark from "../src/components/reactbits/ClickSpark";
+import SplashCursor from "./components/reactbits/SplashCursor";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
 
         {/* Tools */}
         <Tools />
+        <SplashCursor />
       </ClickSpark>
     </>
   );
