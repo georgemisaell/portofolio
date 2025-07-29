@@ -9,6 +9,7 @@ const Project = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="100"
+        data-aos-once="true"
       >
         Project
       </h2>
@@ -53,7 +54,8 @@ const Project = () => {
               </div>
               <div className="mt-8 text-center">
                 <a
-                  href="#"
+                  href="https://ospekkitunair.shop/"
+                  target="_blank"
                   className="bg-violet-700 p-3 rounded-lg block border-zinc-600 hover:bg-violet-600"
                 >
                   Visit Website
