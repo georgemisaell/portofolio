@@ -28,7 +28,8 @@ const Hero = () => {
         </p>
         <div className="flex items-center sm:gap-4 gap-2">
           <a
-            href="#"
+            href="/public/CV- George Misael Gantume-resume-2.pdf"
+            target="_blank"
             className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
           >
             Downlaod CV <i className="ri-download-line ri-lg"></i>
