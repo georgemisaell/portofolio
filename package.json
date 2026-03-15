@@ -10,15 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
     "@tailwindcss/vite": "^4.1.11",
+    "@types/three": "^0.183.1",
     "animate.css": "^4.1.1",
     "aos": "^3.0.0-beta.6",
     "gsap": "^3.13.0",
     "ogl": "^1.0.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-responsive": "^10.0.1",
     "remixicon": "^4.6.0",
     "tailwindcss": "^4.1.11",
+    "three": "^0.183.2",
     "typeit-react": "^2.7.8"
   },
   "devDependencies": {
