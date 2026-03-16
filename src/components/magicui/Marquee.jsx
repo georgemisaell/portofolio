@@ -4,59 +4,59 @@ import { Marquee } from "../ui/Marquee";
 const reviews = [
   {
     name: "Github",
-    img: "./public/assets/tools/github.png",
+    img: "/assets/tools/github.png",
   },
   {
     name: "Figma",
-    img: "./public/assets/tools/figma.png",
+    img: "/assets/tools/figma.png",
   },
   {
     name: "Golang",
-    img: "./public/assets/tools/golang.png",
+    img: "/assets/tools/golang.png",
   },
   {
     name: "NodeJS",
-    img: "./public/assets/tools/nodejs.png",
+    img: "/assets/tools/nodejs.png",
   },
   {
     name: "NextJS",
-    img: "./public/assets/tools/nextjs.png",
+    img: "/assets/tools/nextjs.png",
   },
   {
     name: "Tailwind",
-    img: "./public/assets/tools/tailwind.png",
+    img: "/assets/tools/tailwind.png",
   },
   {
     name: "ReactJS",
-    img: "./public/assets/tools/reactjs.png",
+    img: "/assets/tools/reactjs.png",
   },
   {
     name: "Wordpress",
-    img: "./public/assets/tools/wordpress.png",
+    img: "/assets/tools/wordpress.png",
   },
   {
     name: "Postman",
-    img: "./public/assets/tools/postman.png",
+    img: "/assets/tools/postman.png",
   },
   {
     name: "Javascript",
-    img: "./public/assets/tools/js.png",
+    img: "/assets/tools/js.png",
   },
   {
     name: "Python",
-    img: "./public/assets/tools/python.png",
+    img: "/assets/tools/python.png",
   },
   {
     name: "PostgreSQL",
-    img: "./public/assets/tools/postgresql.png",
+    img: "/assets/tools/postgresql.png",
   },
   {
     name: "Git",
-    img: "./public/assets/tools/git.png",
+    img: "/assets/tools/git.png",
   },
   {
     name: "CSS",
-    img: "./public/assets/tools/css.png",
+    img: "/assets/tools/css.png",
   },
 ];
 
