@@ -1,6 +1,7 @@
 import DataImage from "../../data";
 import TypeIt from "typeit-react";
 import { Astronaut } from "../Astronaut.jsx";
+import { FlipWord } from "../aceternity/FlipWord";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
@@ -22,7 +23,7 @@ const Hero = () => {
   );
 
   return (
-    <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
+    <div className="hero grid md:grid-cols-2 items-center xl:gap-0 gap-6 grid-cols-1">
       {!isMobile && <div className="order-2 md:order-1">{AstronautCanvas}</div>}
       {/* Text */}
       <div className="animate__animated animate__fadeInUp order-1 md:order-2">
@@ -38,16 +39,13 @@ const Hero = () => {
 
         {isMobile && AstronautCanvas}
 
-        <h1 className="text-5xl/tight font-bold mb-6">
+        {/* <h1 className="text-5xl/tight font-bold mb-6">
           <TypeIt>Hi, I'm George Misael</TypeIt>
-        </h1>
-        <p className="text-base/loose mb-6 opacity-50">
-          As a D4 Informatics Engineering student at Universitas Airlangga, I
-          specialize in transforming complex digital challenges into elegant,
-          user-centered full-stack solutions. My expertise spans both frontend
-          and backend technologies, enabling me to craft seamless digital
-          experiences that bridge innovation with practical business needs.
-        </p>
+        </h1> */}
+
+        <div className="text-5xl/tight mb-6">
+          <FlipWord />
+        </div>
         <div className="flex items-center sm:gap-4 gap-2">
           <a
             href="/public/CV- George Misael Gantume-resume-2.pdf"
