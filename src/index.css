@@ -27,8 +27,13 @@
 }
 
 @layer base {
+  html {
+    overflow-x: clip;
+    scrollbar-gutter: stable;
+  }
   body {
     font-family: "Poppins", sans-serif;
+    overflow-x: clip;
   }
 }
 

@@ -11,7 +11,7 @@ const Hero = () => {
 
   /* Canvas */
   const AstronautCanvas = (
-    <div className="w-full h-[400px] md:h-[600px] relative">
+    <div className="relative h-[400px] w-full overflow-hidden md:h-[600px]">
       <Canvas
         camera={{ position: [0, 1, 3] }}
         className={`h-[300px] md:h-[500px] ${isMobile ? "mb-6" : "order-2 md:order-1"}`}
@@ -23,7 +23,7 @@ const Hero = () => {
   );
 
   return (
-    <div className="hero grid md:grid-cols-2 items-center xl:gap-0 gap-6 grid-cols-1">
+    <div className="hero grid grid-cols-1 items-center gap-6 overflow-hidden md:grid-cols-2 xl:gap-0">
       {!isMobile && <div className="order-2 md:order-1">{AstronautCanvas}</div>}
       {/* Text */}
       <div className="animate__animated animate__fadeInUp order-1 md:order-2">
