@@ -42,7 +42,9 @@ const Hero = () => {
             className="w-10 rounded-md"
             loading="lazy"
           />
-          <q>All big things come from small beginnings</q>
+          <p>
+            Rise with <b>courage</b> after every <b>fall</b>
+          </p>
         </div>
 
         {isMobile && AstronautCanvas}
