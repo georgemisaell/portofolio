@@ -43,7 +43,8 @@ const Hero = () => {
             loading="lazy"
           />
           <p>
-            Rise with <b>courage</b> after every <b>fall</b>
+            Shoot for the <b>moon</b>. Even if you miss, you’ll land among the{" "}
+            <b>stars</b>.
           </p>
         </div>
 
