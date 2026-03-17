@@ -5,6 +5,7 @@ import { FlipWord } from "../aceternity/FlipWord";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
+import { Meteors } from "../ui/Meteors";
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 835 });
@@ -23,10 +24,17 @@ const Hero = () => {
   );
 
   return (
-    <div className="hero grid grid-cols-1 items-center gap-6 overflow-hidden md:grid-cols-2 xl:gap-0">
-      {!isMobile && <div className="order-2 md:order-1">{AstronautCanvas}</div>}
+    <div className="hero relative grid grid-cols-1 items-center gap-6 overflow-hidden md:grid-cols-2 xl:gap-0">
+      <div className="pointer-events-none absolute inset-0 overflow-hidden">
+        <Meteors />
+      </div>
+      {!isMobile && (
+        <div className="order-2 md:order-1 relative z-10">
+          {AstronautCanvas}
+        </div>
+      )}
       {/* Text */}
-      <div className="animate__animated animate__fadeInUp order-1 md:order-2">
+      <div className="animate__animated animate__fadeInUp order-1 relative z-10 md:order-2">
         <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
           <img
             src={DataImage.HeroImage}
@@ -34,7 +42,7 @@ const Hero = () => {
             className="w-10 rounded-md"
             loading="lazy"
           />
-          <q>Beautiful code, born from perseverance</q>
+          <q>All big things come from small beginnings</q>
         </div>
 
         {isMobile && AstronautCanvas}
